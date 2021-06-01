@@ -1,0 +1,1263 @@
+repeat 
+wait() 
+until game:IsLoaded()
+for _ = 1, 1 do
+game.Players.LocalPlayer.Stats.JetpackUnlocked.Value = true
+game.Players.LocalPlayer.Stats.AppliedPasses.DoubleLuck.Value = true
+game.Players.LocalPlayer.Stats.VacuumFiringUnlocked.Value = true
+game.Players.LocalPlayer.Stats.HeavyArmorUnlocked.Value = true
+game.Players.LocalPlayer.Stats.AppliedPasses.MorePetSlots.Value = true
+game.Players.LocalPlayer.Stats.AppliedPasses.DoubleGems.Value = true
+game.Players.LocalPlayer.Stats.AppliedPasses.QuickUnbox.Value = true
+game.Players.LocalPlayer.Stats.MagnetismUnlocked.Value = true
+game.Players.LocalPlayer.Stats.BoardsUnlocked.Value = true
+game.Players.LocalPlayer.Stats.AppliedPasses.MorePetStorage1.Value = true
+game.Players.LocalPlayer.Stats.AppliedPasses.AutoUnbox.Value = true
+game.Players.LocalPlayer.Stats.ExtraPetSlotUnlocked.Value = true
+game.Players.LocalPlayer.Stats.ExtraPetStorage2Unlocked.Value = true
+game.Players.LocalPlayer.Stats.OverchargeUnlocked.Value = true
+game.Players.LocalPlayer.Stats.TurbochargerUnlocked.Value = true
+game.Players.LocalPlayer.Stats.AcceleratorUnlocked.Value = true
+game.Players.LocalPlayer.Stats.ExtraPetStorage1Unlocked.Value = true
+game.Players.LocalPlayer.Stats.FriendBonusEnabled.Value = true
+game.Players.LocalPlayer.Settings.PerformanceMode.Value = true
+end
+
+if game.PlaceId == 2685347741 then
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+
+local w = library:CreateWindow('World 1')
+
+local one = w:CreateFolder("Forest")
+
+local two = w:CreateFolder("Blox City")
+
+local cun = w:CreateFolder("Con Side")
+
+local three = w:CreateFolder("Junkyard")
+
+local four = w:CreateFolder("Sewer")
+
+local five = w:CreateFolder("Wild West")
+
+local pyramid = w:CreateFolder("Pyramid")
+
+local six = w:CreateFolder("Area 51")
+
+local seven = w:CreateFolder("Mine")
+
+local eight = w:CreateFolder("Beach")
+
+local freeze = w:CreateFolder("ice Cave")
+
+local nine = w:CreateFolder("UnderWater")
+
+local ten = w:CreateFolder("Volcano")
+
+local Credits = w:CreateFolder("Credits")
+
+one:Button("Fairy",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Fairy.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Fairy
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Fairy == nil
+end)
+one:Button("Owl",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Owl.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Owl
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Owl == nil
+end)
+
+two:Button("Businessman",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Businessman.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Businessman
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Businessman == nil
+end)
+two:Button("Street Cat",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts["Street Cat"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Street Cat")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Street Cat"] == nil
+end)
+
+cun:Button("Worker",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Worker.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Worker
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Worker == nil
+end)
+cun:Button("Pigeon",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Pigeon.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Pigeon
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Pigeon == nil
+end)
+
+three:Button("Mechanic",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Mechanic.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Mechanic
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Mechanic == nil
+end)
+three:Button("Garbage Bin",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts["Garbage Bin"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Garbage Bin")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Garbage Bin"] == nil
+end)
+
+four:Button("Paper Bag Man",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts["Paper Bag Man"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Paper Bag Man")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Paper Bag Man"] == nil
+end)
+four:Button("Rat",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Rat.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Rat
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Rat == nil
+end)
+
+five:Button("Bandit",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Bandit.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Bandit
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Bandit == nil
+end)
+five:Button("Cowboy",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Cowboy.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Cowboy
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Cowboy == nil
+end)
+
+pyramid:Button("Pharaoh",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Pharaoh.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Pharaoh
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Pharaoh == nil
+end)
+pyramid:Button("Mummy",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Mummy.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Mummy
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Mummy == nil
+end)
+
+six:Button("Scientist",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Scientist.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Scientist
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Scientist == nil
+end)
+six:Button("Zorg",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Zorg.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Zorg
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Zorg == nil
+end)
+
+seven:Button("Miner",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Miner.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Miner
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Miner == nil
+end)
+seven:Button("Living Rock",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts["Living Rock"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Living Rock")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Living Rock"] == nil
+end)
+
+eight:Button("Pirate",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Pirate.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Pirate
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Pirate == nil
+end)
+eight:Button("Parrot",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Parrot.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Parrot
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Parrot == nil
+end)
+
+freeze:Button("Explorer",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Explorer.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Explorer
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Explorer == nil
+end)
+freeze:Button("Penguin",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Penguin.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Penguin
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Penguin == nil
+end)
+
+nine:Button("Diver",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Diver.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Diver
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Diver == nil
+end)
+nine:Button("Mermaid",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Mermaid.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Mermaid
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Mermaid == nil
+end)
+
+ten:Button("Islander",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Islander.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Islander
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Islander == nil
+end)
+ten:Button("Magma Monster",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts["Magma Monster"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Magma Monster")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Magma Monster"] == nil
+end)
+
+Credits:Label("milkontop#8180",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+})
+while wait() do
+game.Workspace.ScriptParts.EctoplasmConverters.NormalWorldConverter.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+
+if game.PlaceId == 4078003854 then
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+
+local w = library:CreateWindow('World 2')
+
+local one = w:CreateFolder("Ghost World Islands")
+
+local two = w:CreateFolder("Castle CurtYard")
+
+local three = w:CreateFolder("Music Meadows")
+
+local four = w:CreateFolder("Haunted Castle")
+
+local Credits = w:CreateFolder("Credits")
+
+one:Button("Jester 200k",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Jester.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Jester
+}
+
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Jester == nil
+end)
+one:Button("Jellyfish 300k",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Jelly.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Jelly
+}
+
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Jelly == nil
+end)
+
+one:Button("Pinwheel 275k",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Pinwheel.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Pinwheel
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+
+until game.Workspace.Ghosts.Pinwheel == nil
+end)
+one:Button("Blue Ray 400k",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Blue Ray"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Blue Ray")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Blue Ray"] == nil
+end)
+
+one:Button("Spooky 425K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Spooky.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Spooky
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Spooky == nil
+end)
+one:Button("Pixie 600K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Pixie.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Pixie
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+
+until game.Workspace.Ghosts.Pixie == nil
+end)
+
+two:Button("Rogue 750k",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Rogue.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+
+local args = {
+    [1] = workspace.Ghosts.Rogue
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Rogue == nil
+end)
+two:Button("Knight 1.1M",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Knight.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Knight
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Knight == nil
+end)
+
+two:Button("Wizard 1.7M",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Wizard.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Wizard
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Wizard == nil
+end)
+two:Button("Horse 2.5M",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Horse.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Horse
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Horse == nil
+end)
+
+three:Button("Bongo Man 3.6M",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Bongo Man"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Bongo Man")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Bongo Man"] == nil
+end)
+three:Button("Yellow Note 5M",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Yellow Note"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Yellow Note")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Yellow Note"] == nil
+end)
+three:Button("DJ 9.5M",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.DJ.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.DJ
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.DJ == nil
+end)
+three:Button("Purple Note 12.5 M",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Purple Note"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Purple Note")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Purple Note"] == nil
+end)
+
+four:Button("Viney 20 M",function()
+--repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Viney.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Viney
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+--until game.Workspace.Ghosts["Purple Note"] == nil
+end)
+four:Button("Blooming 27.5 M",function()
+--repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Blooming.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Blooming
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+--until game.Workspace.Ghosts.Blooming == nil
+end)
+four:Button("Adventurer 30 M",function()
+--repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Adventurer.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+-- Script generated by SimpleSpy - credits to exx#9394
+
+local args = {
+    [1] = workspace.Ghosts.Adventurer
+}
+
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+
+--until game.Workspace.Ghosts["Purple Note"] == nil
+end)
+four:Button("Dragonfly 40 M",function()
+--repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Dragonfly.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Dragonfly
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+--until game.Workspace.Ghosts.Dragonfly == nil
+end)
+
+Credits:Label("milkontop#8180",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+})
+while wait() do
+game.Workspace.ScriptParts.EctoplasmConverters.GhostWorldConverter.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+
+if game.PlaceId == 4383092793 then 
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+local w = library:CreateWindow('World 3')
+local one = w:CreateFolder("Swamplands")
+local two = w:CreateFolder("Winter Tundra")
+local Crycave = w:CreateFolder("Crystal Cave")
+local three = w:CreateFolder("Mushroom Forest")
+local four = w:CreateFolder("Twisting River")
+local five = w:CreateFolder("Farm")
+local beehive = w:CreateFolder("beehive")
+local six = w:CreateFolder("Spaceship")
+local seven = w:CreateFolder("Barn")
+local eight = w:CreateFolder("Data Stream")
+local nine = w:CreateFolder("Reverse City")
+local ten = w:CreateFolder("BloxByte HQ")
+local agent = w:CreateFolder("Agents HQ")
+local Credits = w:CreateFolder("Credits")
+one:Button("Swamp Dweller 1.5K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Swamp Dweller"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Swamp Dweller")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Swamp Dweller"] == nil
+end)
+one:Button("Firefly 2.5K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Firefly.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Firefly
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Firefly == nil
+end)
+
+two:Button("Frost Spirit 4.5K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Frost Spirit"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Frost Spirit")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Frost Spirit"] == nil
+end)
+two:Button("Snowstorm 6.5K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Snowstorm.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Snowstorm
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Snowstorm == nil
+end)
+
+Crycave:Button("Error 404 45K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Error 404"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Error 404")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Error 404"] == nil
+end)
+Crycave:Button("Rock Crystal 65K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Rock Crystal"].Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Rock Crystal")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Rock Crystal"] == nil
+end)
+
+three:Button("Flutter Spirit 12K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Flutter Spirit"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Flutter Spirit")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Flutter Spirit"] == nil
+end)
+three:Button("Mushroom 17K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Mushroom.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Mushroom
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Mushroom == nil
+end)
+
+four:Button("Water Spirit 25K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Water Spirit"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Water Spirit")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Water Spirit"] == nil
+end)
+four:Button("Glitcher 35K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Glitcher.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Glitcher
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Glitcher == nil
+end)
+
+five:Button("Farmer 90K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Farmer.MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Farmer
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Farmer == nil
+end)
+five:Button("Crazy Cow 120K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Crazy Cow"].Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Crazy Cow")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Crazy Cow"] == nil
+end)
+
+beehive:Button("Honeydrop 370K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Honeydrop.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Honeydrop
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Honeydrop == nil
+end)
+beehive:Button("Bee 500K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Bee.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Bee
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Bee == nil
+end)
+
+six:Button("Parasite 140K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Parasite.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Parasite
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Parasite == nil
+end)
+six:Button("Super Computer 190K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Super Computer"].Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Super Computer")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Super Computer"] == nil
+end)
+
+seven:Button("Digital Bandit 230K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Digital Bandit"].Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Digital Bandit")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Digital Bandit"] == nil
+end)
+seven:Button("Trojan Horse 300K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Trojan Horse"].Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Trojan Horse")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Trojan Horse"] == nil
+end)
+
+eight:Button("Web Surfer 550K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Web Surfer"].Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Web Surfer")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+
+until game.Workspace.Ghosts["Web Surfer"] == nil
+end)
+eight:Button("Binary 750K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Binary.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Binary
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Binary == nil
+end)
+
+nine:Button("Byte 850K",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Byte.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Byte
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Byte == nil
+end)
+nine:Button("Digi Cat 1.2M",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Digi Cat"].Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+[1] = workspace.Ghosts:FindFirstChild("Digi Cat")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Digi Cat"] == nil
+end)
+
+ten:Button("Guardian 1.3M",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Guardian.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Guardian
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Guardian == nil
+end)
+ten:Button("Data Fury 1.75M",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Data Fury"].Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Data Fury")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts["Data Fury"] == nil
+end)
+
+agent:Button("Programmer 2.1M",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Programmer.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Programmer
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Programmer == nil
+end)
+agent:Button("RAM 2.8M",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.RAM.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.RAM
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.RAM == nil
+end)
+Credits:Label("milkontop#8180",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+})
+while wait() do
+game.Workspace.ScriptParts.PackChargers.LabCharger.CFrame  = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+
+if game.PlaceId == 6755285263 then
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+local w = library:CreateWindow('Event')
+
+local one = w:CreateFolder("map 1")
+
+local two = w:CreateFolder("map 2")
+
+local Credits = w:CreateFolder("Credits")
+one:Button("Fox Girl 500",function()
+--repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Fox Girl"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Fox Girl")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+--until game.Workspace.Ghosts["Fox Girl"] == nil
+end)
+one:Button("Red Mush 750",function()
+--repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts["Red Mush"].Meshpart.CFrame
+
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Red Mush")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+--until game.Workspace.Ghosts["Red Mush"] == nil
+end)
+
+
+two:Button("Golden Pegasus",function()
+--repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Golden Pegasus"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Golden Pegasus")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+--until game.Workspace.Ghosts["Red Mush"] == nil
+end)
+two:Button("Tree Farmer",function()
+--repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts["Tree Farmer"].MeshPart.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Tree Farmer")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+
+
+--until game.Workspace.Ghosts["Red Mush"] == nil
+end)
+
+two:Button("Elf Rogue",function()
+--repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts["Elf Rogue"].Body.CFrame
+
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts:FindFirstChild("Elf Rogue")
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+--until game.Workspace.Ghosts["Red Mush"] == nil
+end)
+
+Credits:Label("milkontop#8180",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+})
+while wait() do
+game.Workspace.ScriptParts.PackChargers.LabCharger.CFrame  = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+
+if game.PlaceId == 6036368776 then
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+
+local w = library:CreateWindow('World 1')
+
+local one = w:CreateFolder("The Void")
+
+local Credits = w:CreateFolder("Credits")
+
+
+one:Button("Storm",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Storm.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Storm
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Storm == nil
+end)
+one:Button("Petal",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Petal.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Petal
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Petal == nil
+end)
+one:Button("Slime",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Slime.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Slime
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Slime == nil
+end)
+one:Button("Tech",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ghosts.Tech.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Tech
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Tech == nil
+end)
+one:Button("Heated",function()
+repeat
+for i = 1, 10 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ghosts.Heated.Body.CFrame
+wait()
+end
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+local args = {
+    [1] = workspace.Ghosts.Heated
+}
+game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(unpack(args))
+until game.Workspace.Ghosts.Heated == nil
+end)
+
+Credits:Label("milkontop#8180",{
+TextSize = 25; -- Self Explaining
+TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+})
+while wait(1) do
+game:GetService("Workspace").ScriptParts.EctoplasmConverters.EpilogueConverter.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+while wait(0.4) do
+for i = 1, 100 do
+local cpos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-15774, -3, -7583)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = cpos
+end
+end
